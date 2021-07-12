@@ -1,0 +1,121 @@
+<table border="1">
+    <thead>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+                İş Başvuru Formu
+            </td>
+        </tr>
+    </thead>
+    <trbody>
+        <tr>
+        <td>Adı</td>
+        <td><input placeholder="Name" required id="kadi" type="text"></td>
+    </tr>
+    <tr>
+        <td>Soyadı</td>
+        <td><input placeholder="Surname" required id="kadi" type="text" value=""> <br></td>
+    </tr>
+    <tr>
+        <td>Doğum Tarihi</td>
+        <td><input type="date"></td> <br>
+        
+    </tr>
+    <tr>
+        <td>Doğum Yeri</td>
+        <td><select name="konum">
+                <optgroup label="Şehir">
+                <option value="css">ADIYAMAN</option>
+                <option value="css">Ankara</option>
+                <option value="css">İstanbul</option>
+                <option selected value="css">İzmir</option>
+                </optgroup>
+                <optgroup label="İlçe">
+                    <option selected value="kahta">Kahta</option>
+                    <option value="gölbası">Gölbaşı</option>
+                    <option value="gerger">Gerger</option>
+                    </optgroup>
+                </td>
+            </select>
+        </th>
+    </tr>
+    <tr>
+        <td>Cinsiyet</td>
+        <td>
+        <label>
+            <input type="radio" name="cinsiyet" required checked value="Bay" > Erkek
+        </label>
+        <label>
+            <input type="radio" name="cinsiyet" required value="Bayan"> Kadın
+        </label>
+    </td>
+    </tr>
+    <tr>
+        <td>
+            Referanslar
+        </td>
+        <td><textarea name="" cols="30" rows="10"></textarea></td>
+        
+    </tr>
+    <tr>
+        <td>
+            Alışkanlıklar
+        </td>
+        <td>
+            <label>
+                <input type="radio" name="Alışkanlıklar" required checked value="Yürümek" > Yürümek
+            </label>
+            <label>
+                <input type="radio" name="Alışkanlıklar" required value="Game Play"> Game Play
+            <label>
+                <input type="radio" name="Alışkanlıklar" required value="Sinema" > Sinema
+                </label>
+            <label>
+                <input type="radio" name="Alışkanlıklar" required value="Uyku"> Her Gün Uyanmak
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Yabancı Dil
+        </td>
+    </tr>
+    <tr>
+        <td>Askerlik</td>
+        <td>
+        <select>
+            <optgroup>
+                <option selected value="Askerlik">Tecilsiz</option>
+                <option value="Askerlik">Tecilli</option>
+            </optgroup>
+        </select>
+    </td>
+        
+    </tr>
+    <tr>
+        <td>Eğitim</td>
+        <td>
+       <select>
+                <optgroup>
+                    <option selected value="Ortaokul">Ortaokul</option>
+                    <option value="Lise">Lise</option>
+                    <option value="Yüksekokul">Yüksekokul</option>
+                    <option value="Yükseklisans">Yükseklisans</option>
+                </optgroup>
+            </td>
+        </select>
+        
+    </tr>
+    <tr>
+        <td>Geçmiş İşler</td>
+        <td>
+            <textarea name="" cols="30" rows="10"></textarea>
+        </td>
+    </tr>
+</trbody>
+    <tfoot>
+    <tr>
+        <td style="text-align: center;" colspan="2"><button type="submit">Gönder</button></td>
+    </tr>
+    </tfoot>
+
+</table>
